@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ALBA____';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/ALBA____.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ALBAM___';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/ALBAM___.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ALBAS___';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/ALBAS___.ttf'), format('truetype');
+}

@@ -1,0 +1,968 @@
+#models h3 {
+    font-family: "Consolas";
+    text-align: center;
+    color: var(--black1e);
+}
+
+#models .bg-gradient {
+    background-color: var(--red);
+    margin-top: -1em;
+    height: 5px;
+    width: 150px;
+}
+
+#models .box-style-model  {
+    background-color: var(--gray38);
+}
+
+#models .box-style-model #box-male .a-exposition-male .img-exposition-male {
+    height: 25em;
+    width: 250px;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px 13px hsl(63, 100%, 79%); 
+    box-shadow: 0px 0px 15px 13px #FAFF93;
+}
+
+#models .box-style-model #box-male #style-male {
+    margin-bottom: -26.5em;
+}
+
+#models .box-style-model #box-male #style-male .male1 {
+    font-family: "ALBA____";
+    margin-left: 12.1em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models .box-style-model #box-male #style-male .male2 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 12.2em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models .box-style-model #box-male #style-male .male3 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 12.3em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models .box-style-model #box-male #style-male .male4 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 12.3em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models .box-style-model #box-male #style-male .male5 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 12.3em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models .box-style-model #box-male #style-male .male6 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 12.4em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models .box-style-model #box-male #style-male .male7 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 12.5em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models .box-style-model #box-male #style-male .male8 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 12.4em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models .box-style-model #box-male #style-male .male9 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 12.3em;
+    color: var(--blue3);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#models .box-style-model #box-male p.description-male {
+    font-family: "ALBA____";
+    font-size: 1.5em;
+    text-align: center;
+}
+#models .box-style-model #box-male p.description-male>a {
+    font-family: "ALBA____";
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    color: var(--black);
+}
+
+#models .box-style-model #box-female .a-exposition-female .img-exposition-female {
+    height: 25em;
+    width: 250px;
+    margin-left: 7.2em;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px 13px #FAFF93; 
+    box-shadow: 0px 0px 15px 13px #FAFF93;
+}
+
+#models .box-style-model #box-female #style-female {
+    margin-top: 4.5em;
+    margin-bottom: -26.5em;
+}
+
+#models .box-style-model #box-female #style-female .female1 {
+    font-family: "ALBA____";
+    margin-left: 1.6em;
+    color: var(--pink);
+    font-size: 2em;
+    font-weight: bold;
+}
+#models .box-style-model #box-female #style-female .female2 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 1.8em;
+    color: var(--pink);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-female #style-female .female3 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 2em;
+    color: var(--pink);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#models .box-style-model #box-female #style-female .female4 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 2em;
+    color: var(--pink);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-female #style-female .female5 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 1.8em;
+    color: var(--pink);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-female #style-female .female6 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 2em;
+    color: var(--pink);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-female #style-female .female7 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 1.8em;
+    color: var(--pink);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-female #style-female .female8 {
+    font-family: "ALBA____";
+    margin-top: -0.9em;
+    margin-left: 1.7em;
+    color: var(--pink);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#models .box-style-model #box-female p.description-female {
+    font-family: "ALBA____";
+    font-size: 1.2em;
+    text-align: center;
+}
+#models .box-style-model #box-female p.description-female>a {
+    font-family: "ALBA____";
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    color: var(--black);
+}
+
+#models .box-style-model #box-childish {
+    margin-bottom: 3em;
+}
+
+#models .box-style-model #box-childish .text-sobreposition .a-exposition-childish .img-exposition-childish {
+    height: 25em;
+    width: 350px;
+    margin-top: 3em;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px 13px #FAFF93; 
+    box-shadow: 0px 0px 15px 13px #FAFF93;
+}
+
+#models .box-style-model #box-childish .text-sobreposition #style-childish {
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-bottom: 0.5em;
+}
+
+#models .box-style-model #box-childish .text-sobreposition #style-childish .childish1 {
+    font-family: "ALBA____";
+    margin-left: 1.6em;
+    color: var(--green);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#models .box-style-model #box-childish .text-sobreposition #style-childish .childish2 {
+    font-family: "ALBA____";
+    margin-top: -2.8em;
+    margin-left: 2.3em;
+    color: var(--orange);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-childish .text-sobreposition #style-childish .childish3 {
+    font-family: "ALBA____";
+    margin-top: -2.4em;
+    margin-left: 3.2em;
+    color: var(--red);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-childish .text-sobreposition #style-childish .childish4 {
+    font-family: "ALBA____";
+    margin-top: -2.8em;
+    margin-left: 4.2em;
+    color: var(--yellow);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-childish .text-sobreposition #style-childish .childish5 {
+    font-family: "ALBA____";
+    margin-top: -2.5em;
+    margin-left: 5.3em;
+    color: var(--blue1);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-childish .text-sobreposition #style-childish .childish6 {
+    font-family: "ALBA____";
+    margin-top: -2.8em;
+    margin-left: 6.3em;
+    color: var(--blue2);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-childish .text-sobreposition #style-childish .childish7 {
+    font-family: "ALBA____";
+    margin-top: -2.5em;
+    margin-left: 7.3em;
+    color: var(--brown);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#models .box-style-model #box-childish .text-sobreposition #style-childish .childish8 {
+    font-family: "ALBA____";
+    margin-top: -2.8em;
+    margin-left: 8.3em;
+    color: var(--pink);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#models .box-style-model #box-childish p.description-childish {
+    font-family: "ALBA____";
+    font-size: 19px;
+    text-align: center;
+}
+#models .box-style-model #box-childish p.description-childish>a {
+    font-family: "ALBA____";
+    font-size: 19px;
+    margin-bottom: 3em;
+    text-align: center;
+    text-decoration: none;
+    color: var(--black);
+}
+
+@media (min-width: 992px) 
+{
+    #models h3 {
+        font-family: "Consolas";
+        text-align: left;
+        font-size: 1.4em;
+        color: var(--black1e);
+    }
+
+    #models .bg-gradient {
+        background-color: var(--red);
+        margin-top: -1em;
+        height: 5px;
+        width: 350px;
+    }
+    #models .bg-gradient2 {
+        background-color: var(--blue1);
+        margin-top: 0.1em;
+        height: 5px;
+        width: 250px;
+    }
+    
+    #models .box-style-model  {
+        background-color: var(--gray38);
+    }
+    
+    #models .box-style-model #box-male .a-exposition-male .img-exposition-male {
+        height: 28.5em;
+        width: 550px;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px 13px #FAFF93; 
+        box-shadow: 0px 0px 15px 13px #FAFF93;
+    }
+    
+    #models .box-style-model #box-male #style-male {
+        margin-bottom: -29.5em;
+    }
+    
+    #models .box-style-model #box-male #style-male .male1 {
+        font-family: "ALBA____";
+        margin-left: 32.1em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male2 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.2em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male3 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.3em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male4 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.3em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male5 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.3em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male6 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.4em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male7 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.5em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male8 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.4em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male9 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.3em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    
+    #models .box-style-model #box-male p.description-male {
+        font-family: "ALBA____";
+        font-size: 1.2em;
+        text-align: center;
+    }
+    #models .box-style-model #box-male p.description-male>a {
+        font-family: "ALBA____";
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+    
+    #models .box-style-model #box-female .a-exposition-female .img-exposition-female {
+        height: 28.5em;
+        width: 550px;
+        margin-left: 37em;
+        margin-bottom: 2em;
+        background-repeat: no-repeat;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px 13px #FAFF93; 
+        box-shadow: 0px 0px 15px 13px #FAFF93;
+    }
+    
+    #models .box-style-model #box-female #style-female {
+        margin-top: 4.5em;
+        margin-bottom: -27.7em;
+    }
+    
+    #models .box-style-model #box-female #style-female .female1 {
+        font-family: "ALBA____";
+        margin-left: 5.7em;
+        color: var(--pink);
+        font-size: 2em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female2 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.6em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female3 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 7.5em;
+        color: var(--pink);
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female4 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.8em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female5 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.7em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female6 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.8em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female7 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.7em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female8 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.6em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    
+    #models .box-style-model #box-female p.description-female {
+        font-family: "ALBA____";
+        font-size: 1.2em;
+        text-align: center;
+    }
+    #models .box-style-model #box-female p.description-female>a {
+        font-family: "ALBA____";
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+    
+    #models .box-style-model #box-childish {
+        margin-bottom: 3em;
+    }
+    
+    #models .box-style-model #box-childish .text-sobreposition .a-exposition-childish .img-exposition-childish {
+        height: 28.5em;
+        width: 80%;
+        background-position-x: 80%;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-left: 8em;
+        background-repeat: no-repeat;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px 13px #FAFF93; 
+        box-shadow: 0px 0px 15px 13px #FAFF93;
+    }
+    
+    #models .box-style-model #box-childish .text-sobreposition #style-childish {
+        margin-top: 1em;
+        margin-left: 24em;
+        margin-bottom: 0.5em;
+    }
+    
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish1 {
+        font-family: "ALBA____";
+        margin-left: 1.6em;
+        color: var(--green);
+        font-size: 2.4em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish2 {
+        font-family: "ALBA____";
+        margin-top: -2.8em;
+        margin-left: 2.3em;
+        color: var(--orange);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish3 {
+        font-family: "ALBA____";
+        margin-top: -2.4em;
+        margin-left: 3.2em;
+        color: var(--red);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish4 {
+        font-family: "ALBA____";
+        margin-top: -2.8em;
+        margin-left: 4.2em;
+        color: var(--yellow);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish5 {
+        font-family: "ALBA____";
+        margin-top: -2.5em;
+        margin-left: 5.3em;
+        color: var(--blue1);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish6 {
+        font-family: "ALBA____";
+        margin-top: -2.8em;
+        margin-left: 6.3em;
+        color: var(--blue2);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish7 {
+        font-family: "ALBA____";
+        margin-top: -2.4em;
+        margin-left: 7.3em;
+        color: var(--brown);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish8 {
+        font-family: "ALBA____";
+        margin-top: -2.8em;
+        margin-left: 8.2em;
+        color: var(--pink);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    
+    #models .box-style-model #box-childish p.description-childish {
+        font-family: "ALBA____";
+        font-size: 1.2em;
+        text-align: center;
+    }
+    #models .box-style-model #box-childish p.description-childish>a {
+        font-family: "ALBA____";
+        font-size: 1.1em;
+        margin-bottom: 3em;
+        text-align: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+}
+
+@media (min-width: 1200px) 
+{
+    #models h3 {
+        font-family: "Consolas";
+        text-align: left;
+        font-size: 1.4em;
+        color: var(--black1e);
+    }
+
+    #models .bg-gradient {
+        background-color: var(--red);
+        margin-top: -1em;
+        height: 5px;
+        width: 350px;
+    }
+    #models .bg-gradient2 {
+        background-color: var(--blue1);
+        margin-top: 0.1em;
+        height: 5px;
+        width: 250px;
+    }
+    
+    #models .box-style-model  {
+        background-color: var(--gray38);
+    }
+    
+    #models .box-style-model #box-male .a-exposition-male .img-exposition-male {
+        height: 28.5em;
+        width: 550px;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px 13px #FAFF93; 
+        box-shadow: 0px 0px 15px 13px #FAFF93;
+    }
+    
+    #models .box-style-model #box-male #style-male {
+        margin-bottom: -29.5em;
+    }
+    
+    #models .box-style-model #box-male #style-male .male1 {
+        font-family: "ALBA____";
+        margin-left: 32.1em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male2 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.2em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male3 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.3em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male4 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.3em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male5 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.3em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male6 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.4em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male7 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.5em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male8 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.4em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-male #style-male .male9 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 32.3em;
+        color: var(--blue3);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    
+    #models .box-style-model #box-male p.description-male {
+        font-family: "ALBA____";
+        font-size: 1.2em;
+        text-align: center;
+    }
+    #models .box-style-model #box-male p.description-male>a {
+        font-family: "ALBA____";
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+    
+    #models .box-style-model #box-female .a-exposition-female .img-exposition-female {
+        height: 28.5em;
+        width: 550px;
+        margin-left: 37em;
+        margin-bottom: 2em;
+        background-repeat: no-repeat;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px 13px #FAFF93; 
+        box-shadow: 0px 0px 15px 13px #FAFF93;
+    }
+    
+    #models .box-style-model #box-female #style-female {
+        margin-top: 4.5em;
+        margin-bottom: -27.7em;
+    }
+    
+    #models .box-style-model #box-female #style-female .female1 {
+        font-family: "ALBA____";
+        margin-left: 5.7em;
+        color: var(--pink);
+        font-size: 2em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female2 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.6em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female3 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 7.5em;
+        color: var(--pink);
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female4 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.8em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female5 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.7em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female6 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.8em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female7 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.7em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-female #style-female .female8 {
+        font-family: "ALBA____";
+        margin-top: -0.9em;
+        margin-left: 6.6em;
+        color: var(--pink);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    
+    #models .box-style-model #box-female p.description-female {
+        font-family: "ALBA____";
+        font-size: 1.2em;
+        text-align: center;
+    }
+    #models .box-style-model #box-female p.description-female>a {
+        font-family: "ALBA____";
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+    
+    #models .box-style-model #box-childish {
+        margin-left: 12em;
+        margin-bottom: 3em;
+    }
+    
+    #models .box-style-model #box-childish .text-sobreposition .a-exposition-childish .img-exposition-childish {
+        height: 32.3em;
+        width: 90%;
+        background-position-x: 80%;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-left: 1em;
+        background-repeat: no-repeat;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px 13px #FAFF93; 
+        box-shadow: 0px 0px 15px 13px #FAFF93;
+    }
+    
+    #models .box-style-model #box-childish .text-sobreposition #style-childish {
+        margin-top: 1em;
+        margin-left: 24em;
+        margin-bottom: 0.5em;
+    }
+    
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish1 {
+        font-family: "ALBA____";
+        margin-left: 1.6em;
+        color: var(--green);
+        font-size: 2.4em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish2 {
+        font-family: "ALBA____";
+        margin-top: -2.8em;
+        margin-left: 2.3em;
+        color: var(--orange);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish3 {
+        font-family: "ALBA____";
+        margin-top: -2.4em;
+        margin-left: 3.2em;
+        color: var(--red);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish4 {
+        font-family: "ALBA____";
+        margin-top: -2.8em;
+        margin-left: 4.2em;
+        color: var(--yellow);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish5 {
+        font-family: "ALBA____";
+        margin-top: -2.5em;
+        margin-left: 5.3em;
+        color: var(--blue1);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish6 {
+        font-family: "ALBA____";
+        margin-top: -2.8em;
+        margin-left: 6.3em;
+        color: var(--blue2);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish7 {
+        font-family: "ALBA____";
+        margin-top: -2.4em;
+        margin-left: 7.3em;
+        color: var(--brown);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    #models .box-style-model #box-childish .text-sobreposition #style-childish .childish8 {
+        font-family: "ALBA____";
+        margin-top: -2.8em;
+        margin-left: 8.2em;
+        color: var(--pink);
+        font-size: 2.3em;
+        font-weight: bold;
+    }
+    
+    #models .box-style-model #box-childish p.description-childish {
+        font-family: "ALBA____";
+        font-size: 1.4em;
+        padding-left: 4em;
+        padding-right: 4em;
+        margin-left: -8.5em;
+        text-align: center;
+    }
+    #models .box-style-model #box-childish p.description-childish>a {
+        font-family: "ALBA____";
+        font-size: 1em;
+        margin-bottom: 3em;
+        text-align: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+}

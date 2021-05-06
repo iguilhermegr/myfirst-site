@@ -1,0 +1,92 @@
+.form .fields .bg-gradient {
+    background-color: var(--red);
+    margin-top: -1em;
+    height: 5px;
+    width: 150px;
+}
+.form .fields .bg-gradient2 {
+    background-color: var(--blue1);
+    margin-top: 0.1em;
+    height: 5px;
+    width: 100px;
+}
+
+.form .fields .complaint-name input#name {
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 2px ridge var(--grayC);
+}
+.form .fields .complaint-email input#email {
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 2px ridge var(--grayC);
+}
+
+.form .fields .complaint-subject input#subject {
+    height: 3em;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 2px ridge var(--grayC);
+}
+
+.form #banner {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+.form #banner .banner {
+    height: 310px;
+    width: 100%;
+}
+
+.form button#button {
+    color: rgb(255, 255, 255); 
+    width: 6em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    margin-left: 11.7em;
+    text-align: center;
+    font-size: 12px; 
+    line-height: 12px; 
+    padding: 3px; 
+    border-radius: 25px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+    display: inline-block;
+}
+
+.form button#button:hover {
+    background: var(--brown);
+}
+
+.form button#button:active {
+    background: var(--black);
+}
+
+@media (min-width: 992px) {
+    .form button#button {
+        color: rgb(255, 255, 255); 
+        width: 7em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        margin-left: 45.5em;
+        text-align: center;
+        font-size: 12px; 
+        line-height: 15px;
+        padding-left: 20em; 
+        padding: 3px; 
+        border-radius: 25px; 
+        font-family: Georgia, serif; 
+        font-weight: normal; 
+        text-decoration: none; 
+        font-style: normal; 
+        font-variant: normal; 
+        text-transform: none; 
+        background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+        display: inline-block;
+    }
+}

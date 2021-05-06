@@ -1,0 +1,230 @@
+footer {
+    width: 100%;
+}
+
+.all-baseboards {
+    text-decoration: var(--white);
+    text-align: center;
+    background-color: var(--gray78);
+    flex-direction: column;
+}
+
+.all-baseboards #link {
+    text-decoration: none;
+    color: var(--orange);
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.all-baseboards .attendance h3 {
+    text-shadow: 2px 2px 2px var(--black);
+    text-decoration: underline;
+    color: var(--white);
+}
+
+.all-baseboards .attendance p {
+    color: var(--orange);
+}
+
+.all-baseboards .attendence h4 {
+    color: var(--blue);
+}
+
+.all-baseboards .contact h3 {
+    text-shadow: 2px 2px 2px var(--black);
+    text-decoration: underline;
+    color: var(--white);
+}
+
+.all-baseboards .contact p {
+    color: var(--orange);
+}
+
+.all-baseboards .follow-us h3 {
+    text-shadow: 2px 2px 2px var(--black);
+    text-decoration: underline;
+    color: var(--white);
+}
+
+.all-baseboards .follow-us p {
+    color: var(--orange);
+}
+
+.all-baseboards .follow-us .social #face-is-initial {
+    margin-left: 5.4em;
+}
+
+.allrights {
+    background-color: rgb(7, 7, 31);
+}
+ .allrights p {
+    background-color: var(--blue1);
+    color: var(--white);
+    text-align: center;
+    font-size: 10px;
+}
+
+@media (max-height: 992px) {
+    footer {
+        width: 100%;
+    }
+    
+    .all-baseboards {
+        text-decoration: var(--white);
+        text-align: center;
+        background-color: var(--gray78);
+        flex-direction: row;
+    }
+    
+    .all-baseboards #link {
+        text-decoration: none;
+        color: var(--orange);
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+    }
+    
+    .all-baseboards .attendance h3 {
+        text-shadow: 2px 2px 2px var(--black);
+        text-decoration: underline;
+        color: var(--white);
+    }
+    
+    .all-baseboards .attendance p {
+        color: var(--orange);
+    }
+    
+    .all-baseboards .attendence h4 {
+        color: var(--blue);
+    }
+
+    .all-baseboards .contact {
+        margin-left: 5em;
+        margin-right: -2.3em;
+    }
+    .all-baseboards .contact h3 {
+        text-shadow: 2px 2px 2px var(--black);
+        text-decoration: underline;
+        color: var(--white);
+    }
+    
+    .all-baseboards .contact p {
+        color: var(--orange);
+    }
+    
+    .all-baseboards .follow-us {
+        margin-left: 2em;
+    }
+    .all-baseboards .follow-us h3 {
+        margin-left: 6em;
+    }
+    .all-baseboards .follow-us ul.social {
+        margin-bottom: 2em;
+    }
+     
+    .all-baseboards .follow-us h3 {
+        text-shadow: 2px 2px 2px var(--black);
+        text-decoration: underline;
+        color: var(--white);
+    }
+    
+    .all-baseboards .follow-us p {
+        color: var(--orange);
+    }
+    
+    .all-baseboards .follow-us .social #face-is-initial {
+        margin-left: 5.5em;
+    }
+    
+    .allrights {
+        background-color: rgb(7, 7, 31);
+    }
+     .allrights p {
+        background-color: var(--blue1);
+        color: var(--white);
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    footer {
+        width: 100%;
+    }
+    
+    .all-baseboards {
+        text-decoration: var(--white);
+        text-align: center;
+        background-color: var(--gray78);
+        flex-direction: row;
+	justify-content: center;
+    }
+    
+    .all-baseboards #link {
+        text-decoration: none;
+        color: var(--orange);
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+    }
+    
+    .all-baseboards .attendance h3 {
+        text-shadow: 2px 2px 2px var(--black);
+        text-decoration: underline;
+        color: var(--white);
+    }
+    
+    .all-baseboards .attendance p {
+        color: var(--orange);
+    }
+    
+    .all-baseboards .attendence h4 {
+        color: var(--blue);
+    }
+
+    .all-baseboards .contact {
+        margin-left: 5em;
+        margin-right: -2.3em;
+    }
+    .all-baseboards .contact h3 {
+        text-shadow: 2px 2px 2px var(--black);
+        text-decoration: underline;
+        color: var(--white);
+    }
+    
+    .all-baseboards .contact p {
+        color: var(--orange);
+    }
+    
+    .all-baseboards .follow-us {
+        margin-left: 2em;
+    }
+    .all-baseboards .follow-us h3 {
+        margin-left: 6em;
+    }
+    .all-baseboards .follow-us ul.social {
+        margin-bottom: 2em;
+    }
+     
+    .all-baseboards .follow-us h3 {
+        text-shadow: 2px 2px 2px var(--black);
+        text-decoration: underline;
+        color: var(--white);
+    }
+    
+    .all-baseboards .follow-us p {
+        color: var(--orange);
+    }
+    
+    .all-baseboards .follow-us .social #face-is-initial {
+        margin-left: 5.5em;
+    }
+    
+    .allrights {
+        background-color: rgb(7, 7, 31);
+    }
+     .allrights p {
+        background-color: var(--blue1);
+        color: var(--white);
+        text-align: center;
+        font-size: 10px;
+    }
+}

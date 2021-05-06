@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<%- include('includes/seo.ejs'); %>
+	<title>OwlsEye</title>
+</head>
+<body>
+	
+	<%- include('includes/header.ejs'); %>     
+
+    <main>
+        <section id="index-expositions">
+            <div class="indexmale-box">    
+                <a href="./category/male-model.html">
+                    <img src="./images/index-male.jpg" id="imgmale" alt="Modelo Masculino">
+                </a>
+            </div>
+            
+            <div class="indexchildish-box">
+                <a href="./category/childish-model.html">
+                    <img src="./images/index-childish.jpg" id="imgfemale" alt="Modelo Infantil">
+                </a>
+            </div>
+
+            <div class="about">
+                <h2><!-- Titulo bonito para o Sobre --></h2>
+                <p><!-- Texto do Sobre --></p>
+            </div>
+
+            <div class="indexfemale-box">
+                <a href="./category/female-model.html"><img src="./images/index-femle.jpg" alt="Modelo Feminino"></a>
+            </div>
+
+            <div class="evaluation">
+                <label for="number">Nos Avalie   ⭐⭐⭐⭐⭐</label>
+                <input type="number" name="message" id="message" placeholder="0">
+            </div>
+          </section>       
+    </main>
+
+    <div id="divider"></div>
+
+    <%- include('includes/footer.ejs'); %>
+</body>
+</html>

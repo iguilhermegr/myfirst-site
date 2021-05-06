@@ -1,0 +1,15 @@
+#index-expositions .indexmale-box a>img#imgmale {
+    width: 200px;
+    height: 4em;
+}
+
+#index-expositions .evaluation input#message {
+    width: 230px;
+    height: 1.9em;
+    font-size: 1.5em;
+    /* AQUI VAI UM BORDER SHADOW */}
+
+#index-expositions .evaluation label {
+    font-size: 25px;
+    /* AQUI TBM VAI UM BORDER SHADOW */
+}

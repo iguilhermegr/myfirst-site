@@ -1,0 +1,69 @@
+@import 'alba.css';
+@import 'variables.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'sac.css';
+@import 'models.css';
+@import 'home.css';
+@import '404.css';
+@import 'male.css';
+@import 'female.css';
+@import 'child.css';
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, div, article, aside, footer, header, main, nav, section, ul, ol, li, button, figure {
+    display: flex;
+}
+
+body {
+    width: 100%;
+    background-color: var(--white36);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+#divider {
+    background-color: var(--red2);
+    width: 100%;
+    height: 1.5em;
+}
+
+label {
+    padding-bottom: -1em;
+    color: var(--black);
+}
+
+label:hover {
+    color: var(--brown);
+}
+
+label:active {
+    color: var(--white);
+}
+
+#male-page .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+main {
+    flex-direction: column;
+}
+div {
+    flex-direction: column;
+}
+header {
+    flex-direction: column;
+}
+footer {
+    flex-direction: column;
+}
+section {
+    flex-direction: column;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "owlseye",
+  "version": "1.0.0",
+  "description": "Site de Ótica Modelo",
+  "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermedsribeiro/OwlsEye.git"
+  },
+  "author": "gr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermedsribeiro/OwlsEye/issues"
+  },
+  "homepage": "https://github.com/guilhermedsribeiro/OwlsEye#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
