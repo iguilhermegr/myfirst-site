@@ -1,7 +1,7 @@
 {
   "name": "owlseye",
   "version": "1.0.0",
-  "description": "Site de Ótica Modelo",
+  "description": "Site de Ótica para a Hcode LAB",
   "main": "server.js",
     "scripts": {
       "start": "node server.js"

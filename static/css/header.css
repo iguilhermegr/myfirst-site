@@ -24,7 +24,7 @@ header img#logo {
 }
 
 header ul {
-	background-color: ;
+	background-color: var(--black1e);
 }
 
 header label[for="bt_menu"] {
@@ -75,3 +75,4 @@ header label[for="bt_menu"] {
         visibility: visible;
         align-items: columns;
     }
+}
